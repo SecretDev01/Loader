@@ -19,6 +19,9 @@ elseif game.PlaceId == 71184132329621 or game.PlaceId == 111510466699934 then
 elseif game.PlaceId == 93044798454681 or game.PlaceId == 125810438250765 then
     getgenv().Executed = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SecretDev01/SecretDev/refs/heads/main/D%20D.lua"))()
+elseif game.PlaceId == 11276071411 then
+    getgenv().Executed = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SecretDev01/SecretDev/refs/heads/main/N%20O%20D.lua"))()
 else
     local Config = {
         Scale = 1.0,
