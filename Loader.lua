@@ -1,9 +1,7 @@
-local AllowedGames = {
-    [18794863104] = true,
-}
-
-if not AllowedGames[game.PlaceId] then
-    return warn("Unsupported game.")
+if game.PlaceId == 18794863104 then
+    loadstring(game:HttpGet("https://script.ugirecode.workers.dev/demonology"))()
+elseif game.PlaceId == 11379739543 then
+    loadstring(game:HttpGet("https://script.ugirecode.workers.dev/time%20bomb%20duel"))()
+else
+    warn("Unsupported game: " .. game.PlaceId)
 end
-
-loadstring(game:HttpGet("https://script.ugirecode.workers.dev/demonology"))()
